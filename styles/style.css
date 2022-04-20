@@ -89,6 +89,10 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.hidden {
+.hide-div {
     display: none;
+}
+
+.hide-button {
+    display:none;
 }
