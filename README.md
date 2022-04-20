@@ -45,6 +45,8 @@ Objective: when user clicks the button, the button becomes hidden and the fav-an
 1. **Think about how to validate each of your features according to a Definition of Done**
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 in order to have event listeners i need to give my buttons, the fav-animal classes or ID's 
+-in order to hide something, i need to add a class to the hidden element, tag it in css and call a "display: none;" arguement
+-in order to grab a div by element id each div needs an ID 
 
 Additional considerations:
 
