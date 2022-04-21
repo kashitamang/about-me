@@ -90,26 +90,6 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.hide-div {
-    display: none;
-}
-
-.hide-button {
-    display:none;
-}
-
-#animal-button {
-    background-color: white;
-    border: 2px solid rgb(225, 225, 225);
-    transition-duration: 0.5s;
-    font-family: 'Hubballi', cursive;
-}
-
-#animal-button:hover {
-    background-color: black;
-    color: white;
-}
-
 #mountain {
     display: inline-block;
     position: relative;
@@ -117,3 +97,32 @@ footer {
     width: 200px;
     height: 200px;
 }
+
+.hide-yak-div {
+    display: none;
+}
+
+.hide-yak-button {
+    display:none;
+}
+
+.hide-vulture-div {
+    display: none;
+}
+
+.hide-vulture-button {
+    display: none;
+}
+
+button {
+    background-color: white;
+    border: 2px solid rgb(225, 225, 225);
+    transition-duration: 0.5s;
+    font-family: 'Hubballi', cursive;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
