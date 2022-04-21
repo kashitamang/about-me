@@ -14,6 +14,9 @@ const vultureDiv = document.getElementById('vulture-div');
 //monkey
 const monkeyButton = document.getElementById('monkey-button');
 const monkeyDiv = document.getElementById('monkey-div');
+
+//guess again button
+const guessAgainButton = document.getElementById('guess-again-button');
 // set event listeners 
 
 
@@ -23,24 +26,36 @@ const monkeyDiv = document.getElementById('monkey-div');
 
 // yak event listeners
 
-    //removes button hide
+    //removes yak button-hider as a default
 yakButton.classList.remove('hide-yak-button');
-    //event listener for clicking
+    //event listener for clicking the yak button
 yakButton.addEventListener('click', () => {
-    //shows div
+    //shows CORRECT ANSWER div: yak 
     yakDiv.classList.toggle('hide-yak-div');
+    //hides yak button
     yakButton.classList.toggle('hide-yak-button');
+    //hides monkey button 
+    monkeyButton.classList.toggle('hide-monkey-button');
+    //hides vulture button 
+    vultureButton.classList.toggle('hide-vulture-button');
 });
 
 // vulture event listeners
 
-    //removes button hide
+    //removes the vulture button-hider as a default 
 vultureButton.classList.remove('hide-vulture-button');
-    //event listener for clicking
+    //event listener for clicking the vulture button
 vultureButton.addEventListener('click', () => {
-    //shows div
+    //shows INCORRECT ANSWER div: vulture
     vultureDiv.classList.toggle('hide-vulture-div');
+    //hides vulture button
     vultureButton.classList.toggle('hide-vulture-button');
+    //hides monkey button
+    monkeyButton.classList.toggle('hide-monkey-button');
+    //hides yak button
+    yakButton.classList.toggle('hide-yak-button');
+    //shows guess again button
+    guessAgainButton.classList.toggle('hide-guess-again-button');
 });
 
 // monkey event listeners
@@ -49,7 +64,15 @@ vultureButton.addEventListener('click', () => {
 monkeyButton.classList.remove('hide-monkey-button');
     //event listener for clicking
 monkeyButton.addEventListener('click', () => {
-    //shows div
+    //shows INCORRECT ANSWER div
     monkeyDiv.classList.toggle('hide-monkey-div');
+    //hides monkey button
     monkeyButton.classList.toggle('hide-monkey-button');
+    //hide vulture button
+    vultureButton.classList.toggle('hide-vulture-button');
+    //hides yak button
+    yakButton.classList.toggle('hide-yak-button');
+    //shows guess again button
+    guessAgainButton.classList.toggle('hide-guess-again-button');
 });
+
