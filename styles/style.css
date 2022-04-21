@@ -30,6 +30,7 @@ body {
 
     font-family: 'Hubballi', cursive;;
     background-color: var(--color2);
+    text-align: center;
 }
 
 main {
@@ -88,3 +89,52 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+#mountain {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.hide-yak-div {
+    display: none;
+}
+
+.hide-yak-button {
+    display: none;
+}
+
+.hide-vulture-div {
+    display: none;
+}
+
+.hide-vulture-button {
+    display: none;
+}
+
+.hide-monkey-div {
+    display: none;
+}
+
+.hide-monkey-button {
+    display: none;
+}
+
+.hide-guess-again-button {
+    display: none;
+}
+
+button {
+    background-color: white;
+    border: 2px solid rgb(225, 225, 225);
+    transition-duration: 0.5s;
+    font-family: 'Hubballi', cursive;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
