@@ -10,6 +10,10 @@ const yakDiv = document.getElementById('yak-div');
     //vulture
 const vultureButton = document.getElementById('vulture-button');
 const vultureDiv = document.getElementById('vulture-div');
+
+//monkey
+const monkeyButton = document.getElementById('monkey-button');
+const monkeyDiv = document.getElementById('monkey-div');
 // set event listeners 
 
 
@@ -31,10 +35,21 @@ yakButton.addEventListener('click', () => {
 // vulture event listeners
 
     //removes button hide
-    vultureButton.classList.remove('hide-vulture-button');
+vultureButton.classList.remove('hide-vulture-button');
     //event listener for clicking
 vultureButton.addEventListener('click', () => {
     //shows div
     vultureDiv.classList.toggle('hide-vulture-div');
     vultureButton.classList.toggle('hide-vulture-button');
+});
+
+// monkey event listeners
+
+    //removes button hide
+monkeyButton.classList.remove('hide-monkey-button');
+    //event listener for clicking
+monkeyButton.addEventListener('click', () => {
+    //shows div
+    monkeyDiv.classList.toggle('hide-monkey-div');
+    monkeyButton.classList.toggle('hide-monkey-button');
 });

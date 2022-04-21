@@ -103,7 +103,7 @@ footer {
 }
 
 .hide-yak-button {
-    display:none;
+    display: none;
 }
 
 .hide-vulture-div {
@@ -111,6 +111,14 @@ footer {
 }
 
 .hide-vulture-button {
+    display: none;
+}
+
+.hide-monkey-div {
+    display: none;
+}
+
+.hide-monkey-button {
     display: none;
 }
 
